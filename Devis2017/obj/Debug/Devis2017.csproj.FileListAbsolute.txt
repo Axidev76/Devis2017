@@ -1,0 +1,47 @@
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Devis2017\obj\Debug\Devis2017.csprojResolveAssemblyReference.cache
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Devis2017\obj\Debug\Devis2017.Form1.resources
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Devis2017\obj\Debug\Devis2017.Properties.Resources.resources
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Devis2017\obj\Debug\Devis2017.csproj.GenerateResource.Cache
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Devis2017\obj\Debug\Devis2017.exe.licenses
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Devis2017\bin\Debug\Devis2017.exe
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Devis2017\bin\Debug\Devis2017.pdb
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Devis2017\obj\Debug\Devis2017.exe
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Devis2017\obj\Debug\Devis2017.pdb
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Devis2017\bin\Debug\Net.Axilog.BLL.dll
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Devis2017\bin\Debug\Net.Axilog.Model.dll
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Devis2017\bin\Debug\Net.Axilog.DAL.dll
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Devis2017\bin\Debug\Net.Axilog.BLL.pdb
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Devis2017\bin\Debug\Net.Axilog.Model.pdb
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Devis2017\bin\Debug\Net.Axilog.DAL.pdb
+C:\Users\dlp.DLP-HP\Documents\Visual Studio 2012\Projects\Devis2017\Devis2017\bin\Debug\Antlr3.Runtime.dll
+C:\Users\dlp.DLP-HP\Documents\Visual Studio 2012\Projects\Devis2017\Devis2017\bin\Debug\ExpressionEvaluator.dll
+C:\Users\dlp.DLP-HP\Documents\Visual Studio 2012\Projects\Devis2017\Devis2017\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\dlp.DLP-HP\Documents\Visual Studio 2012\Projects\Devis2017\Devis2017\bin\Debug\Devis2017.exe.config
+L:\Devis2017\Devis2017\obj\Debug\Devis2017.csproj.AssemblyReference.cache
+L:\Devis2017\Devis2017\obj\Debug\Devis2017.Form1.resources
+L:\Devis2017\Devis2017\obj\Debug\Devis2017.Properties.Resources.resources
+L:\Devis2017\Devis2017\obj\Debug\Devis2017.csproj.GenerateResource.cache
+L:\Devis2017\Devis2017\obj\Debug\Devis2017.exe.licenses
+L:\Devis2017\Devis2017\obj\Debug\Devis2017.exe
+L:\Devis2017\Devis2017\obj\Debug\Devis2017.pdb
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\obj\Debug\Devis2017.csproj.AssemblyReference.cache
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\obj\Debug\Devis2017.Form1.resources
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\obj\Debug\Devis2017.Properties.Resources.resources
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\obj\Debug\Devis2017.csproj.GenerateResource.cache
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\obj\Debug\Devis2017.exe
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\obj\Debug\Devis2017.pdb
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\bin\Debug\Devis2017.exe.config
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\bin\Debug\Devis2017.exe
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\bin\Debug\Devis2017.pdb
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\bin\Debug\Antlr3.Runtime.dll
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\bin\Debug\ExpressionEvaluator.dll
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\bin\Debug\Net.Axilog.BLL.dll
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\bin\Debug\Net.Axilog.Model.dll
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\bin\Debug\Net.Axilog.DAL.dll
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\bin\Debug\IBM.Data.DB2.iSeries.dll
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\bin\Debug\Net.Axilog.BLL.pdb
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\bin\Debug\Net.Axilog.Model.pdb
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\bin\Debug\Net.Axilog.DAL.pdb
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\obj\Debug\Devis2017.csproj.CoreCompileInputs.cache
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Devis2017\obj\Debug\Devis2017.csproj.Up2Date

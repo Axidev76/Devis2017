@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devis2017", "Devis2017\Devis2017.csproj", "{A3739501-DA2A-436D-948B-9FBDB6B800A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Axilog.Model", "Net.Axilog.Model\Net.Axilog.Model.csproj", "{A1D38F47-D5E8-4AA6-BAD8-66289B526B13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Axilog.DAL", "Net.Axilog.DAL\Net.Axilog.DAL.csproj", "{45E9D33A-5DBA-4AE1-848C-BEFD3A39C99A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Axilog.BLL", "Net.Axilog.BLL\Net.Axilog.BLL.csproj", "{DFA6868D-3559-4ACC-9FDF-0947E520C48B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3739501-DA2A-436D-948B-9FBDB6B800A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3739501-DA2A-436D-948B-9FBDB6B800A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3739501-DA2A-436D-948B-9FBDB6B800A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3739501-DA2A-436D-948B-9FBDB6B800A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D38F47-D5E8-4AA6-BAD8-66289B526B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D38F47-D5E8-4AA6-BAD8-66289B526B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D38F47-D5E8-4AA6-BAD8-66289B526B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D38F47-D5E8-4AA6-BAD8-66289B526B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E9D33A-5DBA-4AE1-848C-BEFD3A39C99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E9D33A-5DBA-4AE1-848C-BEFD3A39C99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E9D33A-5DBA-4AE1-848C-BEFD3A39C99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E9D33A-5DBA-4AE1-848C-BEFD3A39C99A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA6868D-3559-4ACC-9FDF-0947E520C48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA6868D-3559-4ACC-9FDF-0947E520C48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA6868D-3559-4ACC-9FDF-0947E520C48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA6868D-3559-4ACC-9FDF-0947E520C48B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

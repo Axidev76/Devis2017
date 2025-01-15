@@ -1,0 +1,27 @@
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Net.Axilog.DAL\obj\Debug\Net.Axilog.DAL.csprojResolveAssemblyReference.cache
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Net.Axilog.DAL\bin\Debug\Net.Axilog.DAL.dll
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Net.Axilog.DAL\bin\Debug\Net.Axilog.DAL.pdb
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Net.Axilog.DAL\bin\Debug\Net.Axilog.Model.dll
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Net.Axilog.DAL\bin\Debug\Net.Axilog.Model.pdb
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Net.Axilog.DAL\obj\Debug\Net.Axilog.DAL.dll
+C:\Users\dlp.DLP-HP\documents\visual studio 2012\Projects\Devis2017\Net.Axilog.DAL\obj\Debug\Net.Axilog.DAL.pdb
+L:\Devis2017\Net.Axilog.DAL\bin\Debug\Net.Axilog.DAL.dll
+L:\Devis2017\Net.Axilog.DAL\bin\Debug\Net.Axilog.DAL.pdb
+L:\Devis2017\Net.Axilog.DAL\bin\Debug\IBM.Data.DB2.iSeries.dll
+L:\Devis2017\Net.Axilog.DAL\bin\Debug\Net.Axilog.Model.dll
+L:\Devis2017\Net.Axilog.DAL\bin\Debug\Net.Axilog.Model.pdb
+L:\Devis2017\Net.Axilog.DAL\obj\Debug\Net.Axilog.DAL.csproj.AssemblyReference.cache
+L:\Devis2017\Net.Axilog.DAL\obj\Debug\Net.Axilog.DAL.csproj.CoreCompileInputs.cache
+L:\Devis2017\Net.Axilog.DAL\obj\Debug\Net.Axil.203DA7A2.Up2Date
+L:\Devis2017\Net.Axilog.DAL\obj\Debug\Net.Axilog.DAL.dll
+L:\Devis2017\Net.Axilog.DAL\obj\Debug\Net.Axilog.DAL.pdb
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Net.Axilog.DAL\bin\Debug\Net.Axilog.DAL.dll
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Net.Axilog.DAL\bin\Debug\Net.Axilog.DAL.pdb
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Net.Axilog.DAL\bin\Debug\IBM.Data.DB2.iSeries.dll
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Net.Axilog.DAL\bin\Debug\Net.Axilog.Model.dll
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Net.Axilog.DAL\bin\Debug\Net.Axilog.Model.pdb
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Net.Axilog.DAL\obj\Debug\Net.Axilog.DAL.csproj.AssemblyReference.cache
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Net.Axilog.DAL\obj\Debug\Net.Axilog.DAL.csproj.CoreCompileInputs.cache
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Net.Axilog.DAL\obj\Debug\Net.Axil.203DA7A2.Up2Date
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Net.Axilog.DAL\obj\Debug\Net.Axilog.DAL.dll
+C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Net.Axilog.DAL\obj\Debug\Net.Axilog.DAL.pdb

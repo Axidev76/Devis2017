@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Net.Axilog.Model.Base.TypeCivilite" Collapsed="true">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Base.BaseTable" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAIAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Base.Adresse" Collapsed="true">
+    <Position X="5.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAQAAAAAAAAEAAAAAAAAECAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Base.Pays" Collapsed="true">
+    <Position X="8.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAAAACAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Base.Contact" Collapsed="true">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAACAAAAAEAAAAAAAAACAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Base.Tiers" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAAAAAAAAAAAAAAEAAAAAAAAIAAAAAIAAA=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Base.Prospect" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Base.Client" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Base.CategorieProduit" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Base.FormatBase" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAYCAACAAAAAAAACAAAQ=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Base.FormatFini" Collapsed="true">
+    <Position X="3.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Base.Epaisseur" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACCABAAAAAAAACAAAAAAgAAAAAACAACAAAA=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.Devis">
+    <Position X="19.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgCAAAAAAAAAAAggAAQgAgAAAAEAgAAAQAcEAAAIAA=</HashCode>
+      <FileName>Devis.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="tiers" />
+      <Property Name="Categorie" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Elements" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.ElementDevis">
+    <Position X="22.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABiCIQAAgAAAAAigAAAAABAQAAgQQEAAKyAIEAAAAAA=</HashCode>
+      <FileName>Devis.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="machineImpression" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="RubriquesChoisies" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.RubriqueChoisie">
+    <Position X="25.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAIAABAAABAAAAACAAABAAAQAEAAAABEAAAA=</HashCode>
+      <FileName>Devis.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="rubrique" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.LigneFabricationOperation">
+    <Position X="31.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAABIAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Devis.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="operationMachine" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.LigneFabricationMatiere">
+    <Position X="28.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Devis.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="matiere" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.Section">
+    <Position X="22.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAEAAAAACAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Machine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.MachineImpression" Collapsed="true">
+    <Position X="22.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQALAAACAEAAABAAAAAAAAAAAAAggAQAAAABAUAM=</HashCode>
+      <FileName>Machine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.OperationMachine">
+    <Position X="34.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAABAAAABAEAAAABAAAABAACAAgAIAgAEAAAAAAYA=</HashCode>
+      <FileName>Machine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.Matiere">
+    <Position X="25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAAAQAAABAAAAAAAGAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Matiere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.Rubrique">
+    <Position X="25.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAAAAAAAAAAAAAAACAAAAAEAACAAAAAAAA=</HashCode>
+      <FileName>ParametrageDevis.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Question1" />
+      <Property Name="Question2" />
+      <Property Name="Question3" />
+      <Property Name="Question4" />
+      <Property Name="Question5" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="LiensMachine" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.QuestionDefinition">
+    <Position X="30.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAAAAAAAAABAAIAAAAAAAAAAAgAAAgAACAAAAAAAA=</HashCode>
+      <FileName>ParametrageDevis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.ValeurPossible" Collapsed="true">
+    <Position X="10.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>ParametrageDevis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.LienRubriqueMachine">
+    <Position X="32.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAABAAAgAAAAAAAABAAAAAAAAABAAAAABAEAAGA=</HashCode>
+      <FileName>ParametrageDevis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.ModeleLigneRubriqueOperation">
+    <Position X="38.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>ParametrageDevis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.ModeleLigneRubriqueMatiere">
+    <Position X="38.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParametrageDevis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.RegleCalcul">
+    <Position X="36.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACkABEAAgAgCABAgACAAAAACgAwAAAAAAAAAAAAAg=</HashCode>
+      <FileName>ParametrageDevis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.TableauCalcul" Collapsed="true">
+    <Position X="15" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQCCAAIQAAgAAAAACEAAAAAAAAAAAAAAgAAABAEAA=</HashCode>
+      <FileName>ParametrageDevis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.TableauRubriqueCorps" Collapsed="true">
+    <Position X="17" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAACBAAAAAAAAAAAFAAAAQAAAAA=</HashCode>
+      <FileName>ParametrageDevis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.Norme" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Support.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.Sorte" Collapsed="true">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAIAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Support.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.SousSorte" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAICAAIAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Support.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Net.Axilog.Model.Devis.Support" Collapsed="true">
+    <Position X="19.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgBACAgAAAAAAABAAA=</HashCode>
+      <FileName>Support.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Net.Axilog.Model.Base.TypeProduit">
+    <Position X="15.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAEAAQAAQAACAAABAAAAAA=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Net.Axilog.Model.Devis.TypeMachineImpression">
+    <Position X="13.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAA=</HashCode>
+      <FileName>Machine.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Net.Axilog.Model.Devis.TypeBase">
+    <Position X="10.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAAAAAAAAAAAQAAABAAAAgAAAQAAAAAgAACAAAAAA=</HashCode>
+      <FileName>ParametrageDevis.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Net.Axilog.Model.Devis.TypeBaseSurfacePoids">
+    <Position X="12" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAgAAAAAAAAABAAEAAAAAAAAAAAAAAgAAAAAAAAAEA=</HashCode>
+      <FileName>ParametrageDevis.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Net.Axilog.Model.Devis.TypeSupport">
+    <Position X="17.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Support.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
