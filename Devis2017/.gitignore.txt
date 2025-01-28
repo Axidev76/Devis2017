@@ -1,0 +1,11 @@
+﻿# ignorer les fichiel dll
+*.dll
+
+# ignorer les fichiers pdb            
+*.pdb
+
+#ignorer les fichiers exe
+*.exe
+
+#ignorer les fichiers user
+*.cache

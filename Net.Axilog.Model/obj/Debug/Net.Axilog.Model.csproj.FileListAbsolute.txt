@@ -15,3 +15,9 @@ C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Net.Axilog.Model\obj\Debug\N
 C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Net.Axilog.Model\obj\Debug\Net.Axilog.Model.csproj.CoreCompileInputs.cache
 C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Net.Axilog.Model\obj\Debug\Net.Axilog.Model.dll
 C:\Users\jdc\Documents\Visual Studio 2022\Devis2017\Net.Axilog.Model\obj\Debug\Net.Axilog.Model.pdb
+C:\Users\dlp.AXILOG\source\repos\Devis2017\Net.Axilog.Model\bin\Debug\Net.Axilog.Model.dll
+C:\Users\dlp.AXILOG\source\repos\Devis2017\Net.Axilog.Model\bin\Debug\Net.Axilog.Model.pdb
+C:\Users\dlp.AXILOG\source\repos\Devis2017\Net.Axilog.Model\obj\Debug\Net.Axilog.Model.csproj.AssemblyReference.cache
+C:\Users\dlp.AXILOG\source\repos\Devis2017\Net.Axilog.Model\obj\Debug\Net.Axilog.Model.csproj.CoreCompileInputs.cache
+C:\Users\dlp.AXILOG\source\repos\Devis2017\Net.Axilog.Model\obj\Debug\Net.Axilog.Model.dll
+C:\Users\dlp.AXILOG\source\repos\Devis2017\Net.Axilog.Model\obj\Debug\Net.Axilog.Model.pdb
