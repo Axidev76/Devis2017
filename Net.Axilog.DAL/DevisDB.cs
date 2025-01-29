@@ -614,7 +614,7 @@ namespace Net.Axilog.DAL
                     " DDCADH, DDQTED, DDDIV, DDCOMF, DDPXFP, DDPXF, DDQP, DDPRMA, DDPRMO, " +
                     " DDBASE, DDRSQT, DDRSMP, DDVALO, DDLBRF, DDSEQ, DDCOEF, DDATEL,  " +
                     " DDRUBF, DDRES1, DDRES2, DDRES3, DDRES4, DDRES5, DDTREP, DDPGAV, " +
-                    " DDNSEQ, DDPERF, DDPERV, DDORDP) VALUES";
+                    " DDNSEQ, DDPERF, DDPERV, DDORDP, DDAP) VALUES";
 
             int ctrD60001P = 1;
             int ctrD60002 = 1;
@@ -662,7 +662,7 @@ namespace Net.Axilog.DAL
                 string reqD60002Values = String.Format("({0}, '{1}', {2}, {3}, {4}, {5}, {6}, '{7}', '{8}', '{9}', {10}, {11}, {12}, {13}, {14}, " +
                            " '{15}', {16}, {17}, {18}, {19}, {20}, {21}, {22}, {23}, {24}, '{25}', " +
                             " {26}, {27}, '{28}', {29}, {30}, {31}, {32}, {33}, {34}, {35}, {36}, " +
-                            " {37}, {38}, {39}, {40}) ",
+                            " {37}, {38}, {39}, {40}, {41) ",
                  _societe, "C", _elem.devis.Id,
                  _elem.devis.Version, _elem.devis.Hypothese, _elem.Id, ctrD60002++, ligne.GetTypeLigne(), ligne.GetReference(), ligne.regle.Id,
                  ligne.Nombre.ToString("F", CultureInfo.InvariantCulture), ligne.TempsUnitaire.ToString("F", CultureInfo.InvariantCulture), (int)ligne.Cadence, ligne.Quantite.ToString("F", CultureInfo.InvariantCulture), ligne.Diviseur, ligne.Commentaire,
@@ -670,8 +670,8 @@ namespace Net.Axilog.DAL
                  ligne.BaseCalcul.ToString("F", CultureInfo.InvariantCulture), ligne.Resultat.ToString("F", CultureInfo.InvariantCulture), ligne.ResultatMP.ToString("F", CultureInfo.InvariantCulture),
                  ligne.Valeur.ToString("F", CultureInfo.InvariantCulture), sDesignation, ligne.Sequence, dCoeff.ToString("F", CultureInfo.InvariantCulture), ligne.CodeTri.Substring(0, 1),
                  0, 0, 0, 0, 0, 0,
-                 "",
-                 0, 0, 0, 0, 0);
+                 0 ,
+                 0, 0, 0, 0, 0, 'I');
                 reqD60002Insert = String.Concat(reqD60002Insert, reqD60002Values);
             }
 
@@ -739,7 +739,7 @@ namespace Net.Axilog.DAL
                         string reqD60002Values = String.Format("({0}, '{1}', {2}, {3}, {4}, {5}, {6}, '{7}', '{8}', '{9}', {10}, {11}, {12}, {13}, {14}, " +
                                    " '{15}', {16}, {17}, {18}, {19}, {20}, {21}, {22}, {23}, {24}, '{25}', " +
                                     " {26}, {27}, '{28}', {29}, {30}, {31}, {32}, {33}, {34}, {35}, {36}, " +
-                                    " {37}, {38}, {39}, {40}) ",
+                                    " {37}, {38}, {39}, {40}, {41) ",
                          _societe, "C", _elem.devis.Id,
                          _elem.devis.Version, _elem.devis.Hypothese, _elem.Id, ctrD60002++, ligne.GetTypeLigne(), ligne.GetReference(), ligne.regle.Id,
                          ligne.Nombre.ToString("F", CultureInfo.InvariantCulture), ligne.TempsUnitaire.ToString("F", CultureInfo.InvariantCulture), (int)ligne.Cadence, ligne.Quantite.ToString("F", CultureInfo.InvariantCulture), ligne.Diviseur, ligne.Commentaire,
@@ -748,7 +748,7 @@ namespace Net.Axilog.DAL
                          ligne.Valeur.ToString("F", CultureInfo.InvariantCulture), sDesignation, ligne.Sequence, dCoeff.ToString("F", CultureInfo.InvariantCulture), ligne.CodeTri.Substring(0, 1),
                          rubc.rubrique.Id, rubc.Reponses[0].ToString("F", CultureInfo.InvariantCulture), rubc.Reponses[1].ToString("F", CultureInfo.InvariantCulture), rubc.Reponses[2].ToString("F", CultureInfo.InvariantCulture), rubc.Reponses[3].ToString("F", CultureInfo.InvariantCulture), rubc.Reponses[4].ToString("F", CultureInfo.InvariantCulture),
                          ligne.ReponseNombre.ToString() + ligne.ReponseTemps.ToString() + ligne.ReponseCadence.ToString() + ligne.ReponseQuantite.ToString() + ligne.ReponseDiviseur.ToString(),
-                         rubc.TauxGacheVariable.ToString("F", CultureInfo.InvariantCulture), rubc.SequenceGache, rubc.lienMachineUtilise.GacheFixeEtape, rubc.lienMachineUtilise.GacheVariableEtape.ToString("F", CultureInfo.InvariantCulture), etape.Ordre);
+                         rubc.TauxGacheVariable.ToString("F", CultureInfo.InvariantCulture), rubc.SequenceGache, rubc.lienMachineUtilise.GacheFixeEtape, rubc.lienMachineUtilise.GacheVariableEtape.ToString("F", CultureInfo.InvariantCulture), etape.Ordre, 'P');
                         reqD60002Insert = String.Concat(reqD60002Insert, reqD60002Values);
                     }
 
