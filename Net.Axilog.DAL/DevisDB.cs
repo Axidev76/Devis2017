@@ -543,7 +543,7 @@ namespace Net.Axilog.DAL
                       " and rhypo=" + _dev.Hypothese + " and RCOUT='C'";
 
                 iDB2Command _command = new iDB2Command(_sql, cn1);
-               // _command.ExecuteNonQuery();
+                _command.ExecuteNonQuery();
 
                 _sql = "Delete from d60001P " +
                 " WHERE rsoc=" + _societe +
@@ -585,7 +585,7 @@ namespace Net.Axilog.DAL
                        " DDHAFA, DDCON, DDEPAIS, DDUNEPAI) VALUES";
 
             //TODO BCK, FOUB, code papier, DDPLI; DDFRN, DDDA, DDNTRM, ddlrfa, ddhafa, ddvir
-    /*         string reqD60001Values = String.Format("({0}, '{1}', {2}, {3], {4}, '{5}', '{6}', '{7}', {8}, '{9}', '{10}', '{11}', {12}, {13}, {14}, " +
+            string reqD60001Values = String.Format("({0}, '{1}', {2}, {3], {4}, '{5}', '{6}', '{7}', {8}, '{9}', '{10}', '{11}', {12}, {13}, {14}, " +
                                    " {15}, {16}, {17}, '{18}', {19} , {20}, {21}, {22}, {23}, {24}, {25}, " +
                                     " {26}, {27}, {28}, {29}, {30}, {31}, {32}, {33}, {34}, {35}, {36}, " +
                                     " {37}, {38}, {39}, {40}, '{41}', {42}, {43}, {44}, {45}, '{46}' ) ",
@@ -603,7 +603,7 @@ namespace Net.Axilog.DAL
             reqD60001Insert = String.Concat(reqD60001Insert, reqD60001Values);
  
             iDB2Command _command3 = new iDB2Command(reqD60001Insert, cn1);
-            _command3.ExecuteNonQuery(); */
+            _command3.ExecuteNonQuery(); 
 
 
             string reqD60001PInsert = "INSERT INTO D60001P (RSOC, RCOUT, RDEV, " +
