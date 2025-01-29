@@ -671,7 +671,7 @@ namespace Net.Axilog.DAL
                  ligne.Valeur.ToString("F", CultureInfo.InvariantCulture), sDesignation, ligne.Sequence, dCoeff.ToString("F", CultureInfo.InvariantCulture), ligne.CodeTri.Substring(0, 1),
                  0, 0, 0, 0, 0, 0,
                  0 ,
-                 0, 0, 0, 0, 0, 'I');
+                 0, 0, 0, 0, 0, "I");
                 reqD60002Insert = String.Concat(reqD60002Insert, reqD60002Values);
             }
 
@@ -748,7 +748,7 @@ namespace Net.Axilog.DAL
                          ligne.Valeur.ToString("F", CultureInfo.InvariantCulture), sDesignation, ligne.Sequence, dCoeff.ToString("F", CultureInfo.InvariantCulture), ligne.CodeTri.Substring(0, 1),
                          rubc.rubrique.Id, rubc.Reponses[0].ToString("F", CultureInfo.InvariantCulture), rubc.Reponses[1].ToString("F", CultureInfo.InvariantCulture), rubc.Reponses[2].ToString("F", CultureInfo.InvariantCulture), rubc.Reponses[3].ToString("F", CultureInfo.InvariantCulture), rubc.Reponses[4].ToString("F", CultureInfo.InvariantCulture),
                          ligne.ReponseNombre.ToString() + ligne.ReponseTemps.ToString() + ligne.ReponseCadence.ToString() + ligne.ReponseQuantite.ToString() + ligne.ReponseDiviseur.ToString(),
-                         rubc.TauxGacheVariable.ToString("F", CultureInfo.InvariantCulture), rubc.SequenceGache, rubc.lienMachineUtilise.GacheFixeEtape, rubc.lienMachineUtilise.GacheVariableEtape.ToString("F", CultureInfo.InvariantCulture), etape.Ordre, 'P');
+                         rubc.TauxGacheVariable.ToString("F", CultureInfo.InvariantCulture), rubc.SequenceGache, rubc.lienMachineUtilise.GacheFixeEtape, rubc.lienMachineUtilise.GacheVariableEtape.ToString("F", CultureInfo.InvariantCulture), etape.Ordre, "P");
                         reqD60002Insert = String.Concat(reqD60002Insert, reqD60002Values);
                     }
 
