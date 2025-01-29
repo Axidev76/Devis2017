@@ -662,7 +662,7 @@ namespace Net.Axilog.DAL
                 string reqD60002Values = String.Format("({0}, '{1}', {2}, {3}, {4}, {5}, {6}, '{7}', '{8}', '{9}', {10}, {11}, {12}, {13}, {14}, " +
                            " '{15}', {16}, {17}, {18}, {19}, {20}, {21}, {22}, {23}, {24}, '{25}', " +
                             " {26}, {27}, '{28}', {29}, {30}, {31}, {32}, {33}, {34}, {35}, {36}, " +
-                            " {37}, {38}, {39}, {40}, {41) ",
+                            " {37}, {38}, {39}, {40}, {41}) ",
                  _societe, "C", _elem.devis.Id,
                  _elem.devis.Version, _elem.devis.Hypothese, _elem.Id, ctrD60002++, ligne.GetTypeLigne(), ligne.GetReference(), ligne.regle.Id,
                  ligne.Nombre.ToString("F", CultureInfo.InvariantCulture), ligne.TempsUnitaire.ToString("F", CultureInfo.InvariantCulture), (int)ligne.Cadence, ligne.Quantite.ToString("F", CultureInfo.InvariantCulture), ligne.Diviseur, ligne.Commentaire,
@@ -739,7 +739,7 @@ namespace Net.Axilog.DAL
                         string reqD60002Values = String.Format("({0}, '{1}', {2}, {3}, {4}, {5}, {6}, '{7}', '{8}', '{9}', {10}, {11}, {12}, {13}, {14}, " +
                                    " '{15}', {16}, {17}, {18}, {19}, {20}, {21}, {22}, {23}, {24}, '{25}', " +
                                     " {26}, {27}, '{28}', {29}, {30}, {31}, {32}, {33}, {34}, {35}, {36}, " +
-                                    " {37}, {38}, {39}, {40}, {41) ",
+                                    " {37}, {38}, {39}, {40}, {41}) ",
                          _societe, "C", _elem.devis.Id,
                          _elem.devis.Version, _elem.devis.Hypothese, _elem.Id, ctrD60002++, ligne.GetTypeLigne(), ligne.GetReference(), ligne.regle.Id,
                          ligne.Nombre.ToString("F", CultureInfo.InvariantCulture), ligne.TempsUnitaire.ToString("F", CultureInfo.InvariantCulture), (int)ligne.Cadence, ligne.Quantite.ToString("F", CultureInfo.InvariantCulture), ligne.Diviseur, ligne.Commentaire,
